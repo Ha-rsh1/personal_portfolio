@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">porfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                  <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, i'm<span> Harsh Chauhan </span> <br> from <span class="ind">India </span>!</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/h1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1>
+                    <p> 
+                        I am a perfinal year engineer student have a experience as a full stack developer and aspring with cpp programming languge.
+                        Extrovert,Well disciplined hardworking and smartworking, having a good problem solving skills and an
+                        ability to use bookish knowledge in a real life situations to make life easier.r. Looking for a challenging role
+                        in a reputable organization to utilize my technical, database, and management skills for the growth of the
+                        organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                       
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>C++/C</span><br>Experience at Intermediate Level.</li>
+                            <li><span>PYTHON and JAVA </span><br>Basic experience with these languge</li>
+                            <li><span>MERN STACK</span><br>Full Stack Web Development with real life projects.</li>
+                            <li><span>DBMS</span><br>Experience with Oracle,MySQL .</li>
+                            <li><span>OOPS</span><br>Object oriented programming concept in c++. </li>
+                            <li><span>OS</span><br>Operating Sytem </li>
+                            <li><span>Team Player</span><br> Able to work with Team members and having a leadership skill too.</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2023-present</span><br>Intern AS a Full Stack Web Developer from NULL CLASS at Yougetplaced Technology. Working with real life project  
+                                like working on a clone of stack overflow using MERN </li>
+                           
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2020-PRESENT</span><br>B.TECH in CSE From Pranveer Singh Institue Of Technology,Kanpur</li>
+                            <li><span>2018-2019</span><br>Intermediate in Physics,Chemistry,Math From Army Public School ,Agra Cantt,Agra</li>
+                            <li><span>2017-2018</span><br>High School From Army Public School ,Agra Cantt,Agra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        <div>
+    </div>
+
+    <!-- -----------------------------------------services---------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my project</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2> Food Ordering Website </h2>
+                    <p>
+                        <ul>
+                        <li>Stack Used- HTML, CSS, BOOTSTRAP, JAVASCRIPT.</li>
+                        <li>Its a responsive website which can change their dimension according to device.</li>
+                        <li> Aim - To provide different types of food at every door step</li>
+                        </ul>
+
+                        
+
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Online_food_ordering"> learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2> Front End Clone of StackOverflow with Firebase Authentication</h2>
+                    <p>
+                        <ul>
+                        <li>Stack Used-REACTJS, HTML, CSS, BOOTSTRAP, FIREBASE.</li>
+                        <li> Having a login signup facility using email with firebase authentication.</li>
+                        <li> AIM- to learn somehting new by making this project on authentucation with firebase and with learn a depth in reactjs. 
+                        </ul>
+                    </p>
+                    <a href="https://stackoverflow.com/"> learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2> Real Time Chat Application</h2>
+                    <p>
+                        <ul>
+                            <li> Stack Used-HTML, CSS, Node.js,React.js,Socket.IO,Bootstrap</li>
+                            <li>Wiht the help of this application we can communicate to one
+                                another in a real time without refreshing a page like whatsapp</li>
+                            <li>Socket.io is used to make communication easier between client and
+                                server. It has a main role in this application.</li>
+                        </ul>
+                    </p>
+                    <a href="https://medium.com/swlh/real-time-chat-application-using-socket-io-in-node-js-37806e98918c"> learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio-------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/81fd1e100718715.5f0ef9fe9e100.png">
+                    <div class="layer">
+                        <h3>food ordering website</h3>
+                        <p> the app connects you to the talented people around the world</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Socket-NodeJS-web-development-screenshot-1.png">
+                    <div class="layer">
+                        <h3>real time chat application app</h3>
+                        <p> the app connects you to the talented people around the world</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/NdBzXx-1280.jpg">
+                    <div class="layer">
+                        <h3>sstackoverflow clone</h3>
+                        <p> the app connects you to the talented people around the world</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+
+        </div>
+    </div>
+
+    <!-- contact ---------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>chauhanh071@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>6397658964</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-chauhan-930170200/"><i class="fab fa-linkedin"></i></a>
+                       
+                    </div>
+                    <a href="images/harsh latest resume.pdf" download class="btn btn2">download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message" ></textarea>
+                        <button type="submit"  class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Developed by Mr.Chauhan </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-content");
+
+       function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link")
+        }
+
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+       }
+
+    </script>
+
+    <script>
+        var sidemnu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemnu.style.right="0";
+        }
+        function closemenu(){
+            sidemnu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMvp_OZx9j7jFesx67QdJDLct9TYyFB0bqlCD7u44I1Sb-TKoLNeFQ-T-whrTA1P_ymQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="message send succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+</body>
+</html>
